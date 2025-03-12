@@ -135,7 +135,19 @@ body {
 
 		<script src="asteroids.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"asteroids","experimentalVK":false,"fileSizes":{"asteroids.pck":24752,"asteroids.wasm":35708238},"focusCanvas":false,"gdextensionLibs":[]};
+const GODOT_CONFIG = {
+    "args": [],
+    "canvasResizePolicy": 2,
+    "executable": "asteroids",
+    "experimentalVK": false,
+    "fileSizes": {"asteroids.pck": 24752, "asteroids.wasm": 35708238},
+    "focusCanvas": false,
+    "gdextensionLibs": [],
+    "fileUrls": {
+        "asteroids.wasm": "https://github.com/Pi-gro/AsteroidsTest/releases/download/v1.0/asteroids.wasm",
+        "asteroids.pck": "asteroids.pck"
+    }
+};
 const engine = new Engine(GODOT_CONFIG);
 
 (function () {
@@ -243,4 +255,3 @@ const engine = new Engine(GODOT_CONFIG);
 		</script>
 	</body>
 </html>
-
