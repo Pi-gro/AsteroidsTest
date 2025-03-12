@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "asteroids.audio.worklet.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'No build step needed for Godot' && exit 0"
   },
   "keywords": [],
   "author": "",
@@ -17,8 +17,3 @@
   }
 }
 
-{
-  "scripts": {
-    "build": "echo 'No build step needed for Godot' && exit 0"
-  }
-}
